@@ -25,6 +25,9 @@ nav{
 
 nav h1{
     font-size: 1.6vw;
+    gap: 2vw;
+    align-items: flex-start;
+
 }
 
 .nav-part2{
@@ -32,8 +35,8 @@ nav h1{
     gap: 2vw;
     align-items: flex-start;
     padding: 1vh 0;
-    position: relative;
-    z-index: 10;
+    /* position: relative;
+    z-index: 10; */
 }
 
 .nav-part2 h4{
@@ -41,6 +44,15 @@ nav h1{
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 2.6vw;
+}
+
+.nav-part2 h5{
+    margin-bottom: 1vw;
+}
+
+.nav-part2 h5 span{
+    font-size: 0.68vw;
+    font-weight: 400;
 }
 
 .nav-part2 h5{
@@ -97,12 +109,12 @@ nav button{
     background-color: #0ba34e;
     display: flex;
     align-items: center;
-    padding: 12px 12px;
+    padding: 14px 20px;
     border-radius: 50px;
     border: none;
     font-size: 0.85vw;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 nav button svg{
@@ -152,8 +164,8 @@ nav button svg{
     font-size: 1vw;
     text-transform: lowercase;
     margin-top: 0.5vw;
-    padding: 5px 10px;
-    border: 1px solid #fff;
+    padding: 5px 12px;
+    border: 1px solid #a5a5a5;
     border-radius: 50px;
 }
 
